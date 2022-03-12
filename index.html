@@ -31,10 +31,6 @@
       content="Guess the hidden word in 6 tries. A new puzzle is available each day."
     />
     <meta property="og:image" content="./images/Wordle-Icon.png" />
-<!--    
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="nytimes.com" />
--->
     <link rel="canonical" href="./index.html" />
     <link rel="manifest" href="manifest.json" />
     <link href="./images/Wordle-Icon.png" rel="icon shortcut" sizes="3232" />
@@ -86,19 +82,6 @@
         --keyboard-height: 200px;
         --game-max-width: 500px;
 
-        /* icons */
-        --spelling-bee: url('./images/nav-icons/SpellingBee-Icon-Normalized.svg');
-        --daily: url('./images/nav-icons/Crossword-Icon-Normalized.svg');
-        --mini: url('./images/nav-icons/Mini-Icon-Normalized.svg');
-        --tiles: url('./images/nav-icons/Tiles-Icon-Normalized.svg');
-        --sudoku: url('./images/nav-icons/Sudoku-Icon-Normalized.svg');
-        --vertex: url('./images/nav-icons/Vertex-Icon-Normalized.svg');
-        --letter-boxed: url('./images/nav-icons/LetterBoxed-Icon-Normalized.svg');
-        --nyt: url('./images/nav-icons/NYT-Icon-Normalized.svg');
-        --wirecutter: url('./images/nav-icons/Wirecutter-Icon-Normalized.svg');
-        --cooking: url('./images/nav-icons/Cooking-Icon-Normalized.svg');
-        --athletic: url('./images/nav-icons/Athletic-Icon-Normalized.svg');
-
       }
 
       /* Light theme colors */
@@ -126,16 +109,6 @@
         --color-nav-hover: #2f2f31;
         --opacity-50: rgba(0, 0, 0, 0.5);
 
-        /* dark mode icons */
-        --spelling-bee: url('./images/nav-icons/SpellingBee-Icon-Normalized-Color.svg');
-        --daily: url('./images/nav-icons/Crossword-Icon-Normalized-Color.svg');
-        --mini: url('./images/nav-icons/Mini-Icon-Normalized-Color.svg');
-        --tiles: url('./images/nav-icons/Tiles-Icon-Normalized-Color.svg');
-        --sudoku: url('./images/nav-icons/Sudoku-Icon-Normalized-Color.svg');
-        --vertex: url('./images/nav-icons/Vertex-Icon-Normalized-Color.svg');
-        --letter-boxed: url('./images/nav-icons/LetterBoxed-Icon-Normalized-Color.svg');
-        --nyt: url('./images/nav-icons/NYT-Icon-Normalized-Color.svg');
-        --athletic: url('./images/nav-icons/Athletic-Icon-Normalized-Color.svg');
       }
       /* Constant colors and colors derived from theme */
       :root,
@@ -204,15 +177,10 @@
       (function () {
         // Defining the hash before the main bundle allows the bundle access window.hash
         window.wordle = window.wordle || {};
-        //window.wordle.hash = 'bfba912f';
+        window.wordle.hash = 'bfba912f';
       })();
     </script>
     <script src="main.js"></script>
-    <!--<script
-      defer
-      type="text/javascript"
-      src="./games-assets/gdpr/cookie-notice-v2.1.2.min.js"
-    ></script>-->
     <game-app></game-app>
   </body>
 </html>
