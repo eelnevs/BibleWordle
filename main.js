@@ -989,7 +989,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
       s = e % 100;
     return e + (a[(s - 20) % 10] || a[s] || a[0])
   }
-  var Ga = new Date(2021, 5, 19, 0, 0, 0, 0);
+  var Ga = new Date(2022, 1, 26, 0, 0, 0, 0);
 
   function Ba(e, a) {
     var s = new Date(e),
